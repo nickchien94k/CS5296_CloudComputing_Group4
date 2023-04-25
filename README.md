@@ -3,8 +3,6 @@
 #### Subject: Cloud based private DNS, Ad Block and VPN services for individuals and SMEs.
 
 ##### Project members:
-- LAM King Yiu (56949610)
-- CHIEN Yu Chin (53877548)
 
 ##### Project Nature: 
 Research
@@ -84,3 +82,16 @@ Research
     ...
     ```
 ##### Benchmark Setup
+
+Benchmark Website:
+1. https://www.dnswatch.info/
+2. https://www.dnsperf.com/ 
+
+Memory Usage Monitor:
+   ```python
+    sudo apt-get install dnsutils
+   ```
+
+   ```python
+    for i in {1..1000}; do dig @127.0.0.1 example.com & done
+   ```
